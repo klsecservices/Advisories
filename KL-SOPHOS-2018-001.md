@@ -23,7 +23,7 @@ SQL injection vulnerability in AccountStatus.jsp in Admin Portal of Sophos XG fi
 
 SQL injection vulnerability is present in `/webconsole/webpages/myaccount/AccountStatus.jsp` URL in GET parameter `username`. Exploitation requires authentication with a low-privileged account (`Audit Admin`, for example).
 
-### How to fix
+### Mitigation
 
 Vendor has released a patch for the vulnerability- https://community.sophos.com/kb/en-us/132637
 
